@@ -102,6 +102,10 @@ pipeline {
                         }
                     }
 
+                    environment{
+                        CI_ENVIRONMENT_URL='https://meek-stardust-c5063d.netlify.app'
+                    }
+
                     steps {
                         sh '''
                            
